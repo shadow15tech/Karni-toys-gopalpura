@@ -749,9 +749,9 @@ height:58px;
 
 font-size:28px;
 
-right:18px;
+right:12px;
 
-bottom:18px;
+bottom:10px;
 
 }
 
@@ -779,9 +779,9 @@ height:52px;
 
 font-size:18px;
 
-right:18px;
+right:15px;
 
-bottom:88px;
+bottom:145px;
 
 }
 
@@ -855,14 +855,15 @@ width:210px;
     .floating-buttons{
         right:15px;
         bottom:15px;
-        gap:12px;
+        gap:15px;
     }
 
     .call-float,
     .whatsapp{
         width:55px;
-        height:55px;
+        height:51px;
         font-size:24px;
+        right: 15px;
     }
 
 }
