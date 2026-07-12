@@ -824,3 +824,45 @@ width:210px;
 }
 
 }
+
+/*==================================
+    FLOATING BUTTONS
+==================================*/
+
+@media (max-width:991px){
+
+    .floating-buttons{
+        right:20px;
+        bottom:20px;
+        gap:14px;
+    }
+
+    .call-float,
+    .whatsapp{
+        width:60px;
+        height:60px;
+        font-size:28px;
+    }
+
+    .tooltip{
+        display:none;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .floating-buttons{
+        right:15px;
+        bottom:15px;
+        gap:12px;
+    }
+
+    .call-float,
+    .whatsapp{
+        width:55px;
+        height:55px;
+        font-size:24px;
+    }
+
+}
